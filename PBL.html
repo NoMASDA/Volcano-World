@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volcano World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Volcano World!</h1>
+    <nav>
+      <ul>
+        <li><a href="#facts">Volcano Facts</a></li>
+        <li><a href="#reports">Student Reports</a></li>
+        <li><a href="#contact">Submit Report</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="facts">
+    <h2>Volcano Facts</h2>
+    <ul>
+      <li>Volcanoes are openings in the Earth's crust.</li>
+      <li>The Ring of Fire is home to 75% of the world's volcanoes.</li>
+      <li>Mauna Loa in Hawaii is the largest active volcano on Earth.</li>
+    </ul>
+    <h3>Famous Volcanoes</h3>
+    <select>
+      <option>Mount Vesuvius</option>
+      <option>Mount St. Helens</option>
+      <option>Krakatoa</option>
+    </select>
+    <p>Learn more about volcanoes <a href="https://www.usgs.gov/volcanoes" target="_blank">here</a>.</p>
+  </section>
+
+  <section id="reports">
+    <h2>Student Reports</h2>
+    <div class="report">
+      <h3>Report by John Doe</h3>
+      <img src="volcano1.jpg" alt="Volcano Eruption" width="300">
+      <p>This is a report about the 1980 eruption of Mount St. Helens.</p>
+    </div>
+    <!-- Add more reports here -->
+  </section>
+
+  <section id="contact">
+    <h2>Submit Your Report</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="report">Report:</label>
+      <textarea id="report" name="report" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</html>
